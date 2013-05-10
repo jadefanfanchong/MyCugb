@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 左侧面板LeftMenuActivity的xml布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/left_menu_bg"
+	android:orientation="vertical" >
+	<LinearLayout
+		android:id="@+id/user_info"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:padding="5dip" >
+		<!-- 左侧面板的人物头像也即是mycugb账户头像 -->
+		<ImageView
+			android:id="@+id/mycugb_account_photo"
+			android:layout_width="48dip"
+			android:layout_height="48dip"
+			android:contentDescription="@string/left_menu_profile_photo"
+			android:scaleType="centerCrop"
+			android:src="@drawable/profile_photo" />
+		<!-- 左侧mycugb账户名称 -->
+		<TextView
+			android:id="@+id/mycugb_account_nickname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dp"
+			android:text="@string/account_nickname"
+			android:textSize="18sp" />
+		<!-- 点击查看账户详细信息按钮 -->
+		<ImageView
+			android:id="@+id/profile_back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@string/profile_back"
+			android:paddingLeft="100dp"
+			android:src="@drawable/profile_back" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:background="@drawable/left_menu_black_divider" >
+	</LinearLayout>
+	<ExpandableListView
+		android:id="@+id/menu_item_listview"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_marginLeft="15dp"
+		android:layout_weight="1.0"
+		android:cacheColorHint="#FFFFFF"
+		android:childIndicator="@null"
+		android:divider="#30ffffff"
+		android:dividerHeight="0.5dp"
+		android:fadingEdge="none"
+		android:footerDividersEnabled="false"
+		android:groupIndicator="@null"
+		android:headerDividersEnabled="false"
+		android:listSelector="#00000000"
+		android:scrollbars="none" >
+	</ExpandableListView>
+</LinearLayout>

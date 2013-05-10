@@ -3,4 +3,7 @@
 	<string name="app_name">MyCugb客户端</string>
 	<string name="action_settings">Settings</string>
 	<string name="hello_world">Hello world!</string>
+	<string name="left_menu_profile_photo">左侧面板账户头像</string>
+	<string name="account_nickname">nickname</string>
+	<string name="profile_back">查看账户详情</string>
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="left_menu_group_names">
+		<item>新闻资讯</item>
+		<item>实用工具</item>
+		<item>娱乐地带</item>
+	</string-array>
+	<string-array name="left_menu_news_group_item">
+		<item>人人树洞</item>
+		<item>地大新闻</item>
+	</string-array>
+	<string-array name="left_menu_tools_group_item">
+		<item>教室查询</item>
+		<item>成绩查询</item>
+	</string-array>
+	<string-array name="left_menu_fun_group_item">
+		<item>测试一</item>
+		<item>测试二</item>
+	</string-array>
+</resources>
